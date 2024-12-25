@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Sidebar from '../../Containers/SideBar/SideBar';
-import FoodMenu from '../../Containers/Full/FoodMenu';
+import FoodMenu from '../../Containers/Foodmenu/FoodMenu';
 const Foods = () => {
   const [activeCategory, setActiveCategory] = useState("What's new");
   const sectionRefs = useRef([]);

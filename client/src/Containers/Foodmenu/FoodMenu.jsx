@@ -90,9 +90,13 @@ const FoodMenu = ({ categories, sectionRefs }) => {
                       alt={`Food Item ${item}`}
                       className="rounded-lg mb-4"
                     />
-                    <div className="text-lg font-bold">Food Item {item}</div>
-                    <div className="text-sm text-gray-500">Description</div>
-                    <button className="mt-4 px-4 py-2 bg-green-600 text-white rounded-lg">
+                    <div className="text-2xl font-bold text-black ">
+                      5  450₸
+                    </div>
+                    <div className="text- text-black">
+                      Баскет L: Крылья и Ножки
+                    </div>
+                    <button className="mt-4 px-4 py-2  w-full text-black bg-slate-100 font-semibold rounded-lg">
                       + Add
                     </button>
                   </div>

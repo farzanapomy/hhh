@@ -48,7 +48,7 @@ import React from 'react';
 const Sidebar = ({ categories, activeCategory, handleCategoryClick }) => {
   return (
     <div className="md:w-1/4 w-full md:h-screen p-5 fixed md:sticky top-0">
-      <div className="flex justify-start items-center rounded-lg gap-3 py-2.5 px-4 ">
+      <div className="flex justify-start items-center rounded-lg gap-3 py-2.5 px-4 text-black font-bold text-xl bg-[#FFFFFF]">
         <GoArrowLeft />
         <h1 className="cursor-pointer">All restaurants</h1>
       </div>
@@ -58,7 +58,7 @@ const Sidebar = ({ categories, activeCategory, handleCategoryClick }) => {
           <p className="text-[#5AC31A]">Free delivery from 1000 ₸ 40–50 min </p>
           <p className="text-slate-400">Detailed conditions</p>
         </div>
-        <IoAlertCircleOutline size={20} />
+        <IoAlertCircleOutline size={20} className="cursor-pointer" />
       </div>
       <ul className="space-y-4 overflow-auto">
         {categories.map((category, index) => (
